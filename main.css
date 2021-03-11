@@ -1,0 +1,117 @@
+body {
+	font-family: Mulish;
+	background-color: #08162B;
+	margin: 0px;
+	padding: 0px;
+
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.prime-button {
+	background-color: #F29494;
+	padding: 6px 10px;
+}
+
+.container {
+	width: 1120px;
+	margin: 0px auto;
+}
+
+.watch, .watch-nav, .watch-menu {
+	display: flex;
+	align-items: center;
+}
+
+.watch {
+	margin-top: 30px;
+}
+
+.watch-nav {
+	width: 670px;
+	justify-content: space-between;
+}
+
+.watch-menu {
+	width: 450px;
+	justify-content: flex-end;
+}
+
+.watch-menu div {
+	margin-right: 40px;
+	cursor: pointer;
+}
+
+/*SECOND PART*/
+
+.element {
+	margin-top: 60px;
+	margin-left: 60px;
+	width: 365px;
+}
+
+.element-text:nth-child(1) {
+	font-size: 63px;
+	font-weight: bold;
+}
+
+.element-text:nth-child(2) {
+	color: #EF9C9C;
+	font-size: 20px;
+	letter-spacing: 7px;
+}
+
+.element-text:nth-child(3) {
+	color: #D8D8D8;
+	margin-top: 40px;
+}
+
+	/*THIRD PART*/
+
+.selection {
+	margin-top: 60px;
+	display: flex;
+}
+
+
+.block {
+	background-color: #2B3544;
+	border-radius: 41px;
+	margin: 0 10px;
+	padding: 20px;
+	width: 200px;
+}
+
+.block img {
+	width: 100%;
+}
+
+.selection-text {
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+
+.selection-text::after {
+	position: absolute;
+	content: 'Element';
+	font-size: 15px;
+	font-weight: normal;
+	opacity: .6;
+	bottom: -14px;
+	left: 120px;
+}
+
+.main-watches img {
+	width: 650px;
+}
+
+.themain {
+	display: flex;
+}
